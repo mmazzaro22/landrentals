@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0; /* Added to test CSS is applying */
+}
+
+.avatar-img.rounded-2 {
+    width: 39.156px;
+}
+
+.icon-lg,
+.icon-xl {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Grid {
+    background-color: rgb(155, 155, 155);
+    display: grid; /* Ensure grid display is set */
+    grid-template-columns: repeat(3, 1fr); /* Simplified */
+    grid-template-rows: repeat(4, auto); /* Simplified */
+}
+
+/* Other styles remain unchanged... */
+
+/* Test styles - You can change or remove these after confirming they work */
+h1 {
+    color: red; /* This makes all <h1> text red */
+}
+
+.bg-light {
+    margin-top: 20px;
+}
+
+.pb-2.pb-lg-5 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.pb-0.pb-xl-5 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.DivBlock {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-header.border-bottom,
+.card-header.border-bottom.justify-content-between.align-items-center {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.align-items-center {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.DivBlock_1 {
+    background-color: rgb(126, 211, 33);
+    border-radius: 50px;
+}
+
+.DivBlock_4 {
+    align-content: stretch;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.DivBlock_2 {
+    background-color: rgb(184, 233, 134);
+    border-radius: 20px;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 10px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.Paragraph,
+.Paragraph_1 {
+    display: inline-block;
+}
+
+.card-header-title {
+    align-items: center;
+    display: flex;
+}
+
+.Body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container.bg-light-.p-4-.p-sm-5-.rounded-3 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.Heading_1,
+.Heading_6 {
+    display: inline-block;
+}
+
+.DivBlock_5 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.DivBlock_7 {
+    background-color: rgb(231, 226, 220);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.Image_1,
+.Image_4 {
+    border-radius: 10px;
+}
+
+.Image_5,
+.Image_6 {
+    border-radius: 10px;
+}
+
+.Button {
+    background-color: rgb(65, 117, 5);
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.ModalFooter,
+.ModalHeader,
+.ModalBox {
+    border-radius: 10px;
+}
+
+.DivBlock_7.shadow {
+    background-color: rgba(155, 155, 155, 0.25);
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Image,
+.Image_7 {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Image_8,
+.Image_9 {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Column {
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.progress {
+    overflow: hidden;
+}
+
+.progress-bar.w-75 {
+    background-color: rgb(120, 193, 35);
+}
+
+.Column_5,
+.Column_6 {
+    background-color: rgb(65, 117, 5);
+}
+
+.DivBlock_9 {
+    height: 1px;
+}
+
+.icon-xl.shadow-lg.border.border-3.border-white.rounded-circle {
+    object-fit: cover;
+}
+
+.mb-4.display-5 {
+    color: rgb(0, 0, 0);
+}
+
+.Image_10,
+.pt-4.pt-md-5 {
+    margin-bottom: 20px;
+}
+
+.Image_11,
+.pt-0,
+.pt-0.pt-md-5 {
+    margin-top: 20px;
+}
+
+.Image_10.border.border-3.border-white.rounded-circle {
+    border-width: 2px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.modal-footer.border-0 {
+    background-color: rgb(255, 255, 255);
+    border-top-color: rgba(0, 0, 0, 0.125);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.div-block-7.border-0 {
+    background-color: rgba(231, 226, 220, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.div-block-7.border-0.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.div-block-7.border-0.bg-white.shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+.p-5 {
+    padding: 20px;
+}
+
+.pt-0.pt-md-5 {
+    margin-top: 20px;
+}
+
+.pt-4.pt-md-5 {
+    margin-top: 20px;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
